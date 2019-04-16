@@ -18,16 +18,23 @@ Step 1: Open command line interface treminal
 
 step 2: Make sure that source code and Dockerfile should be present in one folder
 
-step 3: Now try to create image and container by running the Dockerfile
+step 3: Start the service of docker 
 
-step 4: To create image execute the below command
+         service docker start
 
-step 5: To create container execute the below command
+step 4: Now try to create image and container by running the Dockerfile
 
+step 5: To create image execute the below command
+        
+        docker build -t data .
+
+step 6: To create container execute the below command
+        
+        docker run -ti -p 8001:8001 data /bin/bash
 
 Example: 
 
 Enter the Movie name:
-300
-Rotten Tomatoes Rating is "83%" 
+Aquaman
+Rotten Tomatoes Rating is "8%" 
 
