@@ -21,13 +21,19 @@ step 2: Make sure that source code and Dockerfile should be present in one folde
 step 3: Now try to create image and container by running the Dockerfile
 
 step 4: To create image execute the below command
+  
+      docker build -t data .
 
 step 5: To create container execute the below command
+
+     docker run -ti data /bin/bash
+
+     
 
 
 Example: 
 
 Enter the Movie name:
 300
-Rotten Tomatoes Rating is "83%" 
+Rotten Tomatoes Rating is "60%" 
 
