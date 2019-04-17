@@ -1,5 +1,6 @@
 Retriving Rotten Tomatoes rating from OMBD API 
-   
+ 
+ 
 Objective
 The objective of this Project is to display the Rotten Tomatoes rating for particular movie name using Programming.
 
