@@ -5,7 +5,7 @@ The objective of this Project is to display the Rotten Tomatoes rating for parti
 
 Introduction
 
-The script is to display the entire details of the particular movie , which we have entered when we run that script,should fetch the details of that movie from the database using this python script
+The script is to display the Rotten Tomatoes rating details of the particular movie ,when we enter the movie name,it should fetch the details of that movie from the OMDB database using this python script
 
 Pre-requisites
 
