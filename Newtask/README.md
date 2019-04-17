@@ -1,7 +1,7 @@
-Retriving Rotten Tomatoes rating fropm OMBD API key
+Retriving Rotten Tomatoes rating from OMBD API 
    
 Objective
-The objective of this documentation is to display the Rotten Tomatoes rating for particular movie name using Programming.
+The objective of this Project is to display the Rotten Tomatoes rating for particular movie name using Programming.
 
 Introduction
 
@@ -9,27 +9,24 @@ The script is to display the entire details of the particular movie , which we h
 
 Pre-requisites
 
-Python Installed
+Python,Docker
 
 
 Procedure
 
 Step 1: Open command line interface treminal
 
-step 2: Make sure that source code and Dockerfile should be present in one folder
+step 2: Now try to create image and container by running the Dockerfile
 
-step 3: Now try to create image and container by running the Dockerfile
-
-step 4: To create image execute the below command
+step 3: To create image execute the below command
   
       docker build -t data .
 
-step 5: To create container execute the below command
+step 4: To create container execute the below command
 
-     docker run -ti data /bin/bash
+      docker run -ti data 
 
      
-
 
 Example: 
 
