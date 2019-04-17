@@ -6,7 +6,5 @@ RUN pip install requests
 RUN apt-get install python-pip
 RUN pip install omdb
 RUN pip install pystrich
-ADD sample.py /
-EXPOSE 8001
-CMD [ "python", "./sample.py" ]
-ENTRYPOINT python sample.py
+ADD omdb.py /
+ENTRYPOINT python omdb.py
