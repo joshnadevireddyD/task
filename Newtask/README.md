@@ -1,4 +1,4 @@
-Retriving Rotten Tomatoes rating from OMBD API 
+Retriving Rotten Tomatoes Rating From OMBD API 
  
  
 Objective
